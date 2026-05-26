@@ -42,5 +42,5 @@ dependencies {
     androidTestImplementation libs.androidx.espresso.core
     androidTestImplementation libs.androidx.junit
 
-    implementation 'com.github.aakumykov:lib_with_additional_modules:0.0.1'
+    implementation 'com.github.aakumykov:lib_with_additional_modules:0.0.2'
 }
