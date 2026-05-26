@@ -9,9 +9,9 @@ project.ext {
 
     majorVersionNum = 0
     minorVersionNum = 0
-    patchVersionNum = 4
+    patchVersionNum = 5
 
-    versionCode = 4
+    versionCode = 5
 
     versionName = majorVersionNum + "." + minorVersionNum + "." + patchVersionNum
 }
@@ -68,8 +68,8 @@ dependencies {
         implementation project(':lib_2')
     } else {
         println "REMOTE DEVELOPMENT DETECTED"
-        implementation "com.github.aakumykov:lib_1:0.0.1"
-        implementation "com.github.aakumykov:lib_2:0.0.1"
+        implementation "com.github.aakumykov:lib_with_additional_modules:lib_1:0.0.1"
+        implementation "com.github.aakumykov:lib_with_additional_modules:lib_2:0.0.1"
     }
 }
 
