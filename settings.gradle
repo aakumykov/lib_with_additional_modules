@@ -25,7 +25,6 @@ dependencyResolutionManagement {
 
 rootProject.name = "lib_with_additional_modules"
 include ':app'
-include ':main_lib'
 include ':lib_1'
 include ':lib_2'
 include ':lib_0'
